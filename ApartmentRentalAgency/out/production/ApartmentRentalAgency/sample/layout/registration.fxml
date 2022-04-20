@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #e28b00;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ControllerRegistration">
+   <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #bcbcbc;">
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="244.0" layoutY="153.0" prefHeight="54.0" prefWidth="361.0" style="-fx-background-color: #bcbcbc;" textAlignment="CENTER" textFill="#8a8a8a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginTextField" layoutX="244.0" layoutY="241.0" prefHeight="54.0" prefWidth="361.0" promptText="Логин" style="-fx-background-color: #cf888b;">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passwordTextField" layoutX="244.0" layoutY="326.0" prefHeight="54.0" prefWidth="361.0" promptText="Пароль" style="-fx-background-color: #cf888b;">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonRegistration" layoutX="244.0" layoutY="417.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="361.0" style="-fx-background-color: #65000b;" text="Зарегистрироваться" textFill="#bcbcbc">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" prefHeight="66.0" prefWidth="800.0" style="-fx-background-color: #65000b;" text="Агенство по аренде квартир" textAlignment="CENTER" textFill="#bcbcbc">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="66.0" prefHeight="30.0" prefWidth="800.0" style="-fx-background-color: #65000b;" text="Регистрация" textAlignment="CENTER" textFill="#bcbcbc">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="542.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="120.0" style="-fx-background-color: #65000b;" text="Отменить" textFill="#bcbcbc">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </AnchorPane>
+</AnchorPane>
